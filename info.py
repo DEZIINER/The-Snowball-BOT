@@ -17,7 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Request Channels
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', ''))
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '')
 
 # Bot information
 PORT = environ.get("PORT", "8080")
